@@ -1,0 +1,10 @@
+:root {
+  --primary-color: rgba(72, 38, 3, 0.575);
+  --secondary-color: rgba(243, 196, 149, 0.575);
+}
+body {
+  text-align: center;
+}
+h1 {
+  color: var(--primary-color);
+}
