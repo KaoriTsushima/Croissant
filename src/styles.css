@@ -1,9 +1,11 @@
 :root {
-  --primary-color: rgba(48, 25, 2, 0.575);
-  --secondary-color: rgba(243, 196, 149, 0.575);
+  --primary-color: rgba(48, 25, 2, 0.9);
+  --secondary-color: rgba(242, 231, 219, 0.8);
 }
+
 body {
   text-align: center !important;
+  background-color: var(--secondary-color) !important;
 }
 h1 {
   color: var(--primary-color);
@@ -13,5 +15,13 @@ h1 {
 }
 .about-croissant {
   text-align: left;
-  padding: 10px;
+  padding: 50px;
+}
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.btn-primary:hover {
+  background-color: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
 }
