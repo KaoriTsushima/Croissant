@@ -11,6 +11,7 @@ h1 {
 .title {
   color: var(--primary-color);
 }
-.learn-more {
-  text-decoration: none;
+.about-croissant {
+  text-align: left;
+  padding: 10px;
 }
