@@ -1,10 +1,16 @@
 :root {
-  --primary-color: rgba(72, 38, 3, 0.575);
+  --primary-color: rgba(48, 25, 2, 0.575);
   --secondary-color: rgba(243, 196, 149, 0.575);
 }
 body {
-  text-align: center;
+  text-align: center !important;
 }
 h1 {
   color: var(--primary-color);
+}
+.title {
+  color: var(--primary-color);
+}
+.learn-more {
+  text-decoration: none;
 }
